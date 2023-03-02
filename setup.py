@@ -7,7 +7,7 @@ with open('requirements.txt') as f:
   requirements = f.read().splitlines()
 
 setup(name='rfacts',
-    version='0.0.1',
+    version='0.1.0',
     description='a very simple wrapper around requests/aiohttp for uselessfacts.jsph.pl',
     long_description=README,
     long_description_content_type="text/markdown",
